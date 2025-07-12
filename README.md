@@ -36,4 +36,4 @@ This project was built as part of an AI/ML internship focused on network securit
    5. matplotlib – for visual charts
 
    
-   6 joblib – for saving/loading models
+   6. joblib – for saving/loading models
