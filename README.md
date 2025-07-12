@@ -9,6 +9,8 @@ This project was built as part of an AI/ML internship focused on network securit
    3 Shows prediction confidence and attack type.
    4 Supports bulk upload of URLs as CSV.
    5 Displays pie chart of safe vs malicious results.
+
+ 
  Requirements:
    1 Python
    2 Streamlit – for building the interactive dashboard
