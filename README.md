@@ -4,14 +4,15 @@ and Cross-Site Scripting (XSS) attacks.
 This project was built as part of an AI/ML internship focused on network security
 
  Features :
+ 
    1 Detects malicious URLs using a trained ML model.
    2 Classifies attack type: SQLi, XSS, or Unknown.
    3 Shows prediction confidence and attack type.
    4 Supports bulk upload of URLs as CSV.
    5 Displays pie chart of safe vs malicious results.
-
  
  Requirements:
+ 
    1 Python
    2 Streamlit – for building the interactive dashboard
    3 scikit-learn – for model training and prediction
