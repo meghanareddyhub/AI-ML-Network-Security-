@@ -1,0 +1,19 @@
+url,label
+http://example.com/home,0
+http://example.com/login?username=admin'--,1
+http://newsportal.com/article?id=4523,0
+http://shop.com/?input=%3Cscript%3Ealert('x')%3C%2Fscript%3E,1
+https://profile.social.com/view?user=john_doe,0
+http://example.com/search?q=test'%20OR%20'1'%20=%20'1,1
+http://bank.com/transfer?amount=1000&to=1234; DROP TABLE users;,1
+http://site.com?q=<body onload=alert('xss')>,1
+https://shopping.com/products?category=books,0
+http://example.com/items?id=10 OR 1=1,1
+http://docs.site.com/download?file=report.pdf,0
+http://comments.com/post?id=5&comment=<img src=x onerror=alert('x')>,1
+https://edu-site.org/login?user=student&pass=1234,0
+http://example.com/home,0
+http://example.com/login?user=admin'--,1
+http://example.com/search?q=1%3D1,1
+http://abc.com/query=<img src=x onerror=alert('X')>,1
+http://mysite.com/page?info=%24price,0
